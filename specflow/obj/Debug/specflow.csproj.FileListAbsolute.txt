@@ -1,0 +1,36 @@
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\specflow.dll.config
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\specflow.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\specflow.pdb
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\Newtonsoft.Json.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\nunit.framework.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\System.ValueTuple.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\TechTalk.SpecFlow.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\WebDriver.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\WebDriver.Support.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\Newtonsoft.Json.xml
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\nunit.framework.xml
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\WebDriver.xml
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\bin\Debug\WebDriver.Support.xml
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\obj\Debug\specflow.csprojAssemblyReference.cache
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\obj\Debug\specflow.csproj.CoreCompileInputs.cache
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\obj\Debug\specflow.csproj.CopyComplete
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\obj\Debug\specflow.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\specflow\obj\Debug\specflow.pdb
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\specflow.dll.config
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\specflow.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\specflow.pdb
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\Newtonsoft.Json.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\nunit.framework.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\System.ValueTuple.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\TechTalk.SpecFlow.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\WebDriver.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\WebDriver.Support.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\Newtonsoft.Json.xml
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\nunit.framework.xml
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\WebDriver.xml
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\bin\Debug\WebDriver.Support.xml
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\obj\Debug\specflow.csprojAssemblyReference.cache
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\obj\Debug\specflow.csproj.CoreCompileInputs.cache
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\obj\Debug\specflow.csproj.CopyComplete
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\obj\Debug\specflow.dll
+F:\VS\fw\specflow_selenium_framework-master\specflow_selenium_framework-master\SpecFlowPOC - test\specflow\obj\Debug\specflow.pdb
