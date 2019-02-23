@@ -1,4 +1,4 @@
-# Specflow CSarap POC using POM - WebDriver
+# SpecFlow C# Automated Selenium Testing Framework - WebDriver
 
 How to Run
 
