@@ -13,4 +13,4 @@ Run all
 
 
 Troubleshoot
-Make sure you have 
+Make sure you have all updated packages https://github.com/padmarajnidagundi/SpecflowCSarapPOC/blob/master/specflow/packages.config
