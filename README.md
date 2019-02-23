@@ -12,8 +12,7 @@ Test --> Windows --> Test explorer
 Run all
 
 
-Troubleshoot
-Make sure you have all updated packages https://github.com/padmarajnidagundi/SpecflowCSarapPOC/blob/master/specflow/packages.config
+Troubleshoot tips - Make sure you have all updated packages https://github.com/padmarajnidagundi/SpecflowCSarapPOC/blob/master/specflow/packages.config
 
 
 Keywords : page object model c# selenium specflow
