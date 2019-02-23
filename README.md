@@ -1,4 +1,4 @@
-# SpecflowCSarapPOC
+# Specflow CSarap POC using POM - WebDriver
 
 How to Run
 
