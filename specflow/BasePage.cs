@@ -14,7 +14,7 @@ namespace specflow
         public BasePage(IWebDriver driver)
         {
             this.driver = driver;
-           this.wait = new WebDriverWait(driver,new TimeSpan( 20000));
+            this.wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
         }
 
         public void enterText(IWebElement element, String text)
