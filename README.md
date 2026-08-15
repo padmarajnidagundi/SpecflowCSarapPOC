@@ -1,74 +1,84 @@
-# SpecFlow C# Automated Selenium Testing Framework - WebDriver
+# SpecFlow C# Selenium POC
 
-A Page Object Model (POM) based BDD test automation framework using **SpecFlow 3**, **Selenium WebDriver 4**, and **NUnit 3** targeting .NET Framework 4.6.1.
+A small **BDD + Page Object Model** proof of concept built with **SpecFlow 3**, **Selenium WebDriver 4**, and **NUnit 3** on **.NET Framework 4.6.1**.
 
----
+This repository demonstrates a simple end-to-end UI flow:
 
-## Prerequisites
+- open Google
+- search for **Padmaraj Nidagundi**
+- open the first result
+- verify the final page title
 
-- Visual Studio 2019 or later (with .NET desktop development workload)
-- Google Chrome (latest)
-- NuGet Package Restore (automatic in VS)
+## Why this repo is useful
 
----
+- lightweight starter for SpecFlow + Selenium
+- clear Page Object Model structure
+- easy to extend for additional UI scenarios
+- good base for modernization with **MCP** and **AI agents**
 
-## Package Versions
+## Current stack
 
 | Package | Version |
 |---|---|
 | Selenium.WebDriver | 4.18.1 |
 | Selenium.Support | 4.18.1 |
-| Selenium.WebDriver.ChromeDriver | 120.x |
+| Selenium.WebDriver.ChromeDriver | 120.0.6099.7100 |
 | SpecFlow | 3.9.74 |
 | SpecFlow.NUnit | 3.9.74 |
+| SpecFlow.Tools.MsBuild.Generation | 3.9.74 |
 | NUnit | 3.14.0 |
 | NUnit3TestAdapter | 4.5.0 |
 | Newtonsoft.Json | 13.0.3 |
 
----
+## Project structure
 
-## How to Run
-
-1. Open `specflow.sln` in Visual Studio
-2. Right-click solution → **Restore NuGet Packages**
-3. **Build** → **Clean Solution**, then **Build Solution**
-4. Open **Test** → **Test Explorer**
-5. Click **Run All Tests**
-
----
-
-## Project Structure
-
-```
+```text
 specflow/
 ├── Features/
-│   └── SpecFlowFeature1.feature   # BDD scenarios (Gherkin)
+│   └── SpecFlowFeature1.feature
 ├── Step Definitions/
-│   └── ExampleStepDefinitions.cs  # Step bindings
-├── BasePage.cs                    # Base page with shared WebDriver helpers
-├── DriverFactory.cs               # ChromeDriver factory/singleton
-└── firstPage.cs                   # Page Object for Google search page
+│   └── ExampleStepDefinitions.cs
+├── BasePage.cs
+├── DriverFactory.cs
+└── firstPage.cs
 ```
 
----
+## How to run
+
+1. Open `specflow.sln` in Visual Studio.
+2. Restore NuGet packages.
+3. Build the solution.
+4. Open **Test Explorer**.
+5. Run the SpecFlow/NUnit tests.
 
 ## Notes
 
-- `PageFactory` / `FindsBy` attributes were removed as they are **deprecated** in Selenium 4. Elements are now located using standard `By` locators via `driver.FindElement()`.
-- `WebDriverWait` is configured for a **20-second** explicit wait timeout.
-- ChromeDriver is managed via the `Selenium.WebDriver.ChromeDriver` NuGet package — no manual driver download needed.
+- `PageFactory` is not used because it is deprecated in Selenium 4.
+- Elements are located with standard `By` selectors and `driver.FindElement(...)`.
+- ChromeDriver is managed through the NuGet package already referenced by the project.
+- The project targets **.NET Framework 4.6.1**, so it is best treated as a legacy-compatible POC.
 
----
+## Modernization direction: MCP + AI Agents
 
-## Useful Links
+To make this project more modern, use it as a foundation for:
+
+- **MCP-driven test orchestration** to let tools and agents inspect runs, files, and logs in a standard way
+- **AI agent assisted test authoring** for generating new Gherkin scenarios, step definitions, and page objects
+- **AI-powered failure triage** for analyzing flaky selectors, screenshots, logs, and driver failures
+- **agent-based maintenance** for README updates, dependency review, and test documentation improvements
+- **future migration planning** toward newer .NET, stronger test reporting, and CI-first execution
+
+## Suggested next upgrades
+
+- migrate from .NET Framework 4.6.1 to a supported modern .NET target
+- add CI execution for browser tests
+- separate test data from step definitions
+- improve selector resilience and waiting strategy
+- add richer reporting for test failures
+- introduce MCP/AI workflows for test generation and diagnostics
+
+## Useful links
 
 - [SpecFlow Documentation](https://docs.specflow.org/)
 - [Selenium WebDriver .NET](https://www.selenium.dev/documentation/webdriver/)
-- [NUnit Assertions](https://docs.nunit.org/articles/nunit/writing-tests/assertions/assertion-models/classic.html)
-
----
-
-## Keywords
-
-page object model c# selenium specflow · specflow 3 · selenium 4 · nunit · bdd c# · chromedriver · page object model tutorial
-
+- [NUnit Documentation](https://docs.nunit.org/)
