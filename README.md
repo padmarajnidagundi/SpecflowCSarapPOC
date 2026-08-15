@@ -65,7 +65,7 @@ To make this project more modern, use it as a foundation for:
 - **MCP-driven test orchestration** to let tools and agents inspect runs, files, and logs in a standard way
 - **AI agent assisted test authoring** for generating new Gherkin scenarios, step definitions, and page objects
 - **AI-powered failure triage** for analyzing flaky selectors, screenshots, logs, and driver failures
-- **agent-based maintenance** for README updates, dependency review, and test documentation improvements
+- **Agent-based maintenance** for README updates, dependency review, and test documentation improvements
 - **future migration planning** toward newer .NET, stronger test reporting, and CI-first execution
 
 ## Suggested next upgrades
